@@ -2,7 +2,7 @@
 
 An MkDocs plugin that allows users to add additional content to the ToC sidebar using the Material them 
 
-![demo image](img/mkdocs-toc-sidebar.png]
+![demo image](img/mkdocs-toc-sidebar.png)
 
 ## Pre-requisites
 
