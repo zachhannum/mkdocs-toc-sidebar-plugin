@@ -29,7 +29,7 @@ More information about plugins in the [MkDocs documentation][mkdocs-plugins].
 
 To add a toc sidebar to one of your markdown pages, simply add a div anywhere in the markdown source like so:
 
-```sh
+```markdown
 <div markdown=1 class="sidebar">
 # Toc Sidebar
 
