@@ -1,6 +1,6 @@
 # mkdocs-toc-sidebar-plugin
 
-An MkDocs plugin that allows users to add additional content to the ToC sidebar using the Material them 
+An MkDocs plugin that allows users to add additional content to the ToC sidebar using the Material theme. 
 
 ![demo image](img/mkdocs-toc-sidebar.png)
 
