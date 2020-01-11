@@ -1,29 +1,43 @@
-# mkdocs-plugin-template
+# mkdocs-toc-sidebar-plugin
 
-This is a template for a MkDocs plugin.
+An MkDocs plugin that allows users to add additional content to the ToC sidebar using the Material them 
+
+![demo image](img/mkdocs-toc-sidebar.png]
+
+## Pre-requisites
+
+Currently this plugin will only work with the Table of Contents sidebars in the [Material](https://github.com/squidfunk/mkdocs-material) theme for MkDocs.
 
 ## Setup
 
 Install the plugin using pip:
 
-`pip install mkdocs-your-plugin-name`
+`pip install mkdocs-toc-sidebar-plugin`
 
 Activate the plugin in `mkdocs.yml`:
 ```yaml
 plugins:
   - search
-  - your-plugin-name
+  - toc-sidebar
 ```
 
 > **Note:** If you have no `plugins` entry in your config file yet, you'll likely also want to add the `search` plugin. MkDocs enables it by default if there is no `plugins` entry set, but now you have to enable it explicitly.
 
 More information about plugins in the [MkDocs documentation][mkdocs-plugins].
 
-## Config
-
-* `param` - This does something
-
 ## Usage
+
+To add a toc sidebar to one of your markdown pages, simply add a div anywhere in the markdown source like so:
+
+```sh
+<div markdown=1 class="sidebar">
+# Toc Sidebar
+
+It's filled with information specific to this page.
+
+It's locked to the screen just like the ToC!
+</div>
+```
 
 ## See Also
 
