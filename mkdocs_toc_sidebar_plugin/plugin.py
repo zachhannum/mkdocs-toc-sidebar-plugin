@@ -14,7 +14,7 @@ import codecs
 class TocSidebar(BasePlugin):
 
     config_scheme = (
-        ('param', config_options.Type(mkdocs_utils.string_types, default='')),
+        ('param', config_options.Type(str, default='')),
     )
 
     def __init__(self):
