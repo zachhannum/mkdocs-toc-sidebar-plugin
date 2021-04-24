@@ -35,6 +35,6 @@ class TocSidebar(BasePlugin):
                 print("WARNING: Table of Contents sidebar not found")
    
         #souped_html = soup.prettify(soup.original_encoding)
-        souped_html = soup.encode(soup.original_encoding) if soup.original_encoding else soup.str()
+        souped_html = soup.encode(soup.original_encoding) if soup.original_encoding else str(soup)
         return souped_html 
 
